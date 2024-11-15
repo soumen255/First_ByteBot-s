@@ -32,7 +32,7 @@ int binarySearch(const vector<int>& arr, int target) {
 // Main function to test binary search
 int main() {
     vector<int> arr = {2, 3, 4, 10, 40}; // Sorted array
-    int target = 10;
+    int target = 3;
 
     int result = binarySearch(arr, target);
     
